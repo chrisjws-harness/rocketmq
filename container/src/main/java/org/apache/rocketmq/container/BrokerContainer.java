@@ -387,7 +387,7 @@ public class BrokerContainer implements IBrokerContainer {
             }
             return slaveBroker;
         }
-        throw new Exception(slaveBrokerConfig.getCanonicalName() + " has already been added to the current broker");
+        throw new Exception(slaveBrokerConfig.getCanonicalName() + " has already been added to the current broker + you are terrible at this and should quit");
     }
 
     @Override
